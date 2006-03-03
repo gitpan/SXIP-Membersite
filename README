@@ -1,0 +1,68 @@
+The sxip 2.0 Perl Membersite Development Kit
+
+Copyright (c) 2006 Sxip Identity Corp. All Rights Reserved.
+
+Licensed under the Sxip MDK License (the "License"). You may not use
+this Package except in compliance with the License.
+
+You may view a copy of the License in the LICENSE file located in the
+same directory as this file.
+
+----------------------------------------------------------------------
+INTRODUCTION
+
+What is SXIP?
+    The Simple eXtensible Identity Protocol (SXIP) is an open protocol
+    for identity management built by Sxip Identity.
+
+What is the Perl MDK?
+    The Perl MDK contains libraries and tools that make it easier to integrate
+    the SXIP protocol into Perl-based web applications.
+
+----------------------------------------------------------------------
+CONTACT
+
+The community site for sxip developers is http://sxip.org.
+
+You may want to join one or more of the sxip.org mailing lists:
+
+- Subscribe to <announce@sxip.org> to stay up to date with software releases and other
+important happenings:
+
+http://listserv.sxip.org/mailman/listinfo/announce
+
+- Subscribe to <dev@sxip.org> to discuss Sxip development, get answers to technical
+questions and request new features.
+
+http://listserv.sxip.org/mailman/listinfo/dev
+
+----------------------------------------------------------------------
+INSTALLATION
+
+For detailed instructions on how to install the Perl MDK, please refer to
+the INSTALL document in the same directory as this document.
+
+----------------------------------------------------------------------
+PACKAGE CONTENTS
+
+The contents of this package are:
+
+    INSTALL
+        Instructions for installing the MDK.
+
+    README
+        General information about the MDK.
+
+    LICENSE
+        Terms of use for the MDK.
+
+    lib/SXIP/Membersite.pm
+        SXIP::Membersite module
+
+    demo/membersite.pl
+        Demo Membersite (CGI)
+
+    t/
+        Module test scripts
+
+======================================================================

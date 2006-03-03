@@ -1,0 +1,28 @@
+---
+name: SXIP-Membersite
+version: 1.0.0
+author:
+  - Sxip Identity <dev@sxip.org>
+abstract: SXIP Membersite API
+license: bsd
+build_requires:
+  CGI: 0
+  Carp: 0
+  FindBin: 0
+  HTML::TreeBuilder: 0
+  LWP::UserAgent: 0
+  MIME::Base64: 0
+  SXIP::Digest: 0.0.1
+  Test::More: 0
+  URI: 0
+provides:
+  SXIP::Membersite:
+    file: lib/SXIP/Membersite.pm
+    version: 1.0.0
+  SXIP::Membersite::Logger:
+    file: lib/SXIP/Membersite.pm
+    version: 1.0.0
+  SXIP::Membersite::UserAgent:
+    file: lib/SXIP/Membersite.pm
+    version: 1.0.0
+generated_by: Module::Build version 0.2611

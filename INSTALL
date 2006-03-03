@@ -1,0 +1,73 @@
+======================================================================
+Perl MDK Installation Guide
+======================================================================
+
+PREREQUISITES
+
+Software Requirements:
+
+    Perl (5.8.x recommended)
+
+Perl Module Dependencies:
+
+    SXIP::Membersite:
+
+        Carp
+        HTML::TreeBuilder
+        LWP::UserAgent
+        Module::Build
+        SXIP::Digest
+        URI
+
+    Additional dependencies required by the Membersite Demo CGI:
+        
+        CGI
+        FindBin
+        MIME::Base64
+
+    Additional dependencies required to run test scripts:
+
+        Test::More
+
+Supported Operating Systems: 
+
+    Mac OS X
+    FreeBSD
+    Linux
+
+----------------------------------------------------------------------
+INSTALLATION
+
+To install the Perl MDK:
+
+- from CPAN:
+
+    $ perl -MCPAN -eshell
+    cpan> install SXIP::Membersite
+
+    OR
+
+    $perl -MCPANPLUS -eshell
+    CPAN Terminal> i SXIP::Membersite
+
+- from a manually downloaded package:
+
+    1. Install the Perl module dependencies from CPAN
+
+    2. Extract and install the MDK package:
+
+        $ tar xzf SXIP-Membersite-x.x.tar.gz
+        $ cd SXIP-Membersite-x.x
+        $ perl Build.PL
+        $ ./Build
+        $ ./Build test
+        $ ./Build install
+
+----------------------------------------------------------------------
+POST-INSTALLATION
+
+Try the membersite demo by running the CGI script:
+    
+    demo/membersite.pl
+
+======================================================================

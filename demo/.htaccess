@@ -1,0 +1,4 @@
+DirectoryIndex membersite.pl
+Options +ExecCGI
+AddHandler cgi-script .pl
+
